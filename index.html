@@ -4,23 +4,253 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeWear</title>
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/home.css" />
   </head>
   <body>
     <header>
-      <h1>CodeWear</h1>
-      <nav>
-        <a href="index.html">Trang chủ</a>
-        <a href="./pages/products.html">Sản phẩm</a>
-        <a href="./pages/about.html">Giới thiệu</a>
-        <a href="./pages/cart.html">Liên hệ</a>
-      </nav>
+      <div class="header-container">
+        <!-- logo -->
+        <div class="logo">
+          <img src="./assets/image/logoFCode.png" alt="" />
+          <span>CodeWear</span>
+        </div>
+
+        <!-- search -->
+        <div class="search-box">
+          <input type="text" placeholder="Tìm kiếm" />
+          <button>
+            <img src="./assets/image/search.png" alt="" />
+          </button>
+        </div>
+        <!-- icon -->
+        <div class="header-icons">
+          <a href="./pages/cart.html">
+            <img src="./assets/image/shopping-cart.png" />
+          </a>
+          <a href="#">
+            <img src="./assets/image/user.png" />
+          </a>
+        </div>
+        <!-- Navigation -->
+        <nav>
+          <ul>
+            <li><a href="#" class="active">TRANG CHỦ</a></li>
+            <li><a href="./pages/products.html">SẢN PHẨM</a></li>
+            <li><a href="./pages/about.html">GIỚI THIỆU</a></li>
+            <li><a href="./pages/contact.html">LIÊN HỆ</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
+    <!-- Where code meets fashion -->
+    <section class="hero">
+      <!-- Background image -->
+      <div class="hero-image">
+        <img src="./assets/image/Background_trang_chu.jpg" alt="" />
+      </div>
+
+      <!-- Hero content -->
+      <div class="hero-content">
+        <h1>WHERE CODE<br />MEETS FASHION</h1>
+        <p>Thể hiện đam mê lập trình theo phong cách riêng của bạn.</p>
+        <a href="./pages/product.html" class="btn-shop"> Mua sắm → </a>
+      </div>
+    </section>
+
+    <!-- Sản phẩm nổi bật -->
+    <section class="Product">
+      <div class="bg-product">
+        <h1>SẢN PHẨM NỔI BẬT</h1>
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/image/" alt="" class="product-image" />
+          <div class="product-info">
+            <h3>Áo thun cotton</h3>
+            <p class="price">150.000đ</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Giới thiệu CodeWear -->
+    <section class="about">
+      <div class="about-container">
+        <!-- Bên trái: hình ảnh -->
+        <h1>GIỚI THIỆU VỀ CODEWEAR</h1>
+        <div class="about-content">
+          <div class="about-images">
+            <div class="about-image">
+              <span class="image-frame"></span>
+              <img src="./assets/image/coming_soon.png" alt="Coming soon" />
+            </div>
+          </div>
+
+          <!-- Bên phải: nội dung -->
+          <div class="about-infor">
+            <p>
+              Chúng tôi nhận ra rằng nhiều CLB công nghệ thiếu nguồn lực để duy
+              trì hoạt động và phát triển cộng đồng lập trình trẻ.
+            </p>
+            <p>
+              Vì vậy, shop thời trang online này ra đời – nơi mỗi sản phẩm được
+              bán ra là một khoản gây quỹ trực tiếp cho CLB F Code.
+            </p>
+            <p>
+              Không chỉ bán quần áo, chúng tôi xây dựng một hệ sinh thái nơi
+              thời trang hỗ trợ tri thức, và cộng đồng tạo ra giá trị lâu dài.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
     <footer>
-      <p>© 2026 CodeWear. All rights reserved</p>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img src="./assets/image/logoFCode.png" />
+          <h3>Code Wear</h3>
+          <p class="copyright">
+            © 2026 <strong>CodeWear</strong>. All rights reserved
+          </p>
+        </div>
+
+        <div class="footer-center">
+          <div class="address">
+            <img class="icon" src="./assets/image/map.png" />
+            Lô E2a-7, Đường D1, Khu Công nghệ cao (KCNC),<br />
+            P. Long Thạnh Mỹ, TP. Thủ Đức, TP.HCM.
+          </div>
+
+          <div class="phonenumber">
+            <img class="icon" src="./assets/image/call.png" />
+            <span>0123456789</span>
+          </div>
+
+          <div class="email">
+            <img class="icon" src="./assets/image/mail.png" />
+            <span>codewear@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <a
+            href="https://www.facebook.com/fcodeclub"
+            class="social-item facebook"
+            target="_blank"
+          >
+            <img
+              class="social-icon"
+              src="./assets/image/facebook.png"
+              alt="Facebook"
+            />
+            <span>Facebook</span>
+          </a>
+
+          <a href="#" class="social-item instagram">
+            <img
+              class="social-icon"
+              src="./assets/image/instagram.png"
+              alt="Instagram"
+            />
+            <span>Instagram</span>
+          </a>
+
+          <a href="#" class="social-item youtube">
+            <img
+              class="social-icon"
+              src="./assets/image/youtube.png"
+              alt="Youtube"
+            />
+            <span>Youtube</span>
+          </a>
+
+          <a href="#" class="social-item linkedin">
+            <img
+              class="social-icon"
+              src="./assets/image/linkedln.png"
+              alt="LinkedIn"
+            />
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <img
+          class="dmca-icon"
+          src="./assets/image/dmca-logo.png"
+          alt="DMCA Protected"
+        />
+      </div>
     </footer>
 
     <script src="./assets/js/home.js"></script>
