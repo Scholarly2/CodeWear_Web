@@ -82,26 +82,6 @@ CodeWear_Web/
 ├── README.md
 ```
 
-⚠️ **Lưu ý:** Không tự ý thay đổi cấu trúc project.
-
----
-
-## 🔁 Prototype Flow (Figma)
-
-Luồng chuyển trang chính của website:
-
-```
-Home → Product List → Product Detail → Cart → Contact
-```
-
-Prototype được sử dụng để:
-
-* Demo sản phẩm
-* Thuyết trình
-* Đồng bộ thiết kế & code
-
----
-
 ##  Chức năng chính
 
 * Trang chủ giới thiệu thương hiệu CodeWear
@@ -114,8 +94,7 @@ Prototype được sử dụng để:
   * Tính tổng tiền
   * Lưu bằng localStorage
 * Trang liên hệ với form validate cơ bản
-* Trang tĩnh: About / FAQ / Policy
-* Responsive trên nhiều thiết bị
+* Trang giới thiệu
 * Animation cơ bản (hover, transition)
 
 ---
@@ -129,7 +108,7 @@ git clone <repo-url>
 
 2. Mở file `index.html` bằng trình duyệt (Chrome/Edge)
 
-⚠️ Vì dùng MockAPI nên cần **kết nối Internet** để fetch dữ liệu.
+Vì dùng MockAPI nên cần **kết nối Internet** để fetch dữ liệu.
 
 ---
 
@@ -159,4 +138,3 @@ Dự án phục vụ cho **chiến dịch pre-order gây quỹ CLB**, đồng th
 
 ---
 
-👉 nói mình chỉnh lại cho đúng mục đích nộp nhé 💪
